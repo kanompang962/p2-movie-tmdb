@@ -1,5 +1,5 @@
 ## Movie TMDB
-> **My App** https://p2-movie-tmdb.vercel.app
+> **My App:** https://p2-movie-tmdb.vercel.app
 
 ## Installation
 Open the file on vscode and open a terminal. Type the command below to run the app.
