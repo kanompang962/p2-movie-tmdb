@@ -46,12 +46,12 @@ const Navbar = ({ word, setWord, setOpen }) => {
       <Box display={`${showMobileSearch ? "none" : "flex"}`}>
         {/* <img src={logo} alt="logo" height={60} /> */}
         <Typography
-          fontSize={{xs:28,md:40}}
+          fontSize={{xs:24,md:40}}
           fontFamily="Mulish"
           fontWeight="bold"
           sx={{ color: "gray" }}
         >
-          TMDB <span style={{ fontSize: 16 }}>&copy; Dev 2023 Thianchai</span>
+          TMDB <span style={{ fontSize: 14 }}>&copy; Dev 2023 Thianchai</span>
         </Typography>
       </Box>
       {/* Icon Back */}
