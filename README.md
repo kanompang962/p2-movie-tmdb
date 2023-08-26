@@ -1,7 +1,7 @@
-## Movie TMDB
+## 👨‍💻Movie TMDB
 > **My App:** https://p2-movie-tmdb.vercel.app
 
-## Installation
+## 💬Installation
 Open the file on vscode and open a terminal. Type the command below to run the app.
 > npm install
 ###
@@ -10,6 +10,14 @@ Open the file on vscode and open a terminal. Type the command below to run the a
 *   🌍  I'm based in Bangkok, Thailand
 *   🖥️  See my portfolio at [My Port](http://portfolio-gradients.vercel.app/)
 *   ✉️  You can contact me at [thianchaichamnan@gmail.com](mailto:thianchaichamnan@gmail.com)
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+  <a href="https://fb.com/iddavee" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="iddavee" height="30" width="40"/></a>
+  <a href="https://instagram.com/iddaveee" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="iddaveee" height="30" width="40"/>
+  </a>
+</p>
 ###
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
