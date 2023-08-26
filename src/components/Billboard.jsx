@@ -22,7 +22,7 @@ const Billboard = () => {
       <img
         style={{
           width: "100%",
-          height: "285px",
+          height: "290px",
           objectFit: "cover",
           borderRadius: "6px",
         }}
