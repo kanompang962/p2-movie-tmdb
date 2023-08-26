@@ -26,6 +26,7 @@ const Sidebar = ({ categotys,categoryId, setCategoryId, setCategoryName }) => {
             background: item.id === categoryId && "green",
             color: "white",
             gap: "6px",
+            borderRadius:'20px'
           }}
         >
           {/* {item.icon && (

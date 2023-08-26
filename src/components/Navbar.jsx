@@ -18,7 +18,7 @@ import { MyCartContext } from "../context/context";
 const Navbar = ({ word, setWord, setOpen }) => {
   const [showMobileSearch, setshowMobileSearch] = useState(false);
   const [showCart, setShowCart] = useState(false);
-  const { amount, cart,removeQuantity } = MyCartContext();
+  const { amount, cart, removeQuantity } = MyCartContext();
 
   const handleSwitSearch = useCallback(() => {
     setshowMobileSearch((current) => !current);
@@ -45,8 +45,13 @@ const Navbar = ({ word, setWord, setOpen }) => {
       {/* Logo */}
       <Box display={`${showMobileSearch ? "none" : "flex"}`}>
         {/* <img src={logo} alt="logo" height={60} /> */}
-        <Typography fontSize={40} fontFamily='Mulish' fontWeight="bold" sx={{ color: "gray" }}>
-          TMDB API
+        <Typography
+          fontSize={{xs:28,md:40}}
+          fontFamily="Mulish"
+          fontWeight="bold"
+          sx={{ color: "gray" }}
+        >
+          TMDB <span style={{ fontSize: 16 }}>&copy; Dev 2023 Thianchai</span>
         </Typography>
       </Box>
       {/* Icon Back */}
@@ -150,7 +155,7 @@ const Navbar = ({ word, setWord, setOpen }) => {
                   sx={{
                     width: "45%",
                     mb: "12px",
-                    borderRadius: "6px",
+                    borderRadius: "20px",
                   }}
                 >
                   Buy
@@ -162,7 +167,7 @@ const Navbar = ({ word, setWord, setOpen }) => {
                   sx={{
                     width: "45%",
                     mb: "12px",
-                    borderRadius: "6px",
+                    borderRadius: "20px",
                   }}
                 >
                   remove

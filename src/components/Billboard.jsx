@@ -13,7 +13,7 @@ const Billboard = () => {
     const randomNumber = Math.floor(Math.random() * 20);
     // console.log(randomNumber);
     useMovie.getMovieBillboard().then((res) => {
-      setMovieBillboard(res.data.results[randomNumber]);
+      setMovieBillboard(res.data.results[15]);
     });
   };
 
@@ -35,21 +35,22 @@ const Billboard = () => {
         }
         alt="billboard"
       />
-      <Stack position="absolute" top={{xs:'30%', md:'30%'}} paddingLeft={{xs:1, md:4}} paddingRight={{xs:1, md:4}} zIndex={0}>
+      <Stack position="absolute" top={'40%'} paddingLeft={{xs:1, md:4}} paddingRight={{xs:1, md:4}} zIndex={0}>
         <Typography
-          fontSize={{ xs: 24, md: 40 }}
+          fontSize={{xs:30,md:40}}
           color="white"
           fontFamily='Mulish'
           fontWeight="bold"
+          mb={2}
           sx={{ opacity: "0.8" }}
         >
           {movieBillboard.title}
         </Typography>
         <Typography
-          fontSize={{xs:'12px', md:'16px'}}
+        display={{xs:'none', md:'flex'}}
+          fontSize={14}
           color="white"
           width={{xs:'100%', md:'60%'}}
-        //   sx={{ opacity: "0.5" }}
         >
           {movieBillboard.overview&&movieBillboard.overview.substring(0,560)}
         </Typography>
