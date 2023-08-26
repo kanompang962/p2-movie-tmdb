@@ -1,14 +1,9 @@
-<h3 align="center">Hi 👋, I'm Thaichai Chamnan</h3>
+<h1 align="center">Todo List App</h1>
+<h3 align="center">App: https://p2-movie-tmdb.vercel.app/</h3>
 
-- App Link **https://p2-movie-tmdb.vercel.app/**
+- 🌱 All of my projects are available at [https://portfolio-gradients.vercel.app/](https://portfolio-gradients.vercel.app/)
 
-- 🌱 I’m currently learning **Mahasarakham University**
-
-- Install in Visual Studio Code **npm run dev**
-
-- 👨‍💻 All of my projects are available at [https://portfolio-gradients.vercel.app/](https://portfolio-gradients.vercel.app/)
-
-- 💬 Ask me about **react, tailwind, MUI**
+- 💬 Install in Visual Studio Code **npm run dev**
 
 - 📫 How to reach me **thianchaichamnan@gmail.com**
 
