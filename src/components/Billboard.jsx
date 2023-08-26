@@ -47,7 +47,7 @@ const Billboard = () => {
           {movieBillboard.title}
         </Typography>
         <Typography
-        display={{xs:'none', md:'flex'}}
+        display={{xs:'none', lg:'flex'}}
           fontSize={14}
           color="white"
           width={{xs:'100%', md:'60%'}}
